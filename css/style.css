@@ -16,7 +16,7 @@
 }
 
 /* Utilities */
-.debug{
+/* .debug{
     border: 2px solid black;
 }
 .debug-2{
@@ -24,7 +24,7 @@
 }
 .debug-3{
     border: 2px solid red;
-}
+} */
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -37,6 +37,9 @@
 }
 .padding-x *{
     padding: 0px 2px;
+}
+.pd-top{
+    padding-top: 100px;
 }
 /* Flex */
 .wrapper{
@@ -51,10 +54,16 @@
     padding: 0px 5px 20px;
     min-width: 300px;
 }
+.card-content{
+    position: relative;
+}
 /*Header*/
 header{
     background-color: var(--color-header-bg);
     color: var(--color-icons-text-white);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 /* Navbar */
@@ -71,6 +80,30 @@ img{
 }
 .sale{
     text-decoration: line-through;
+}
+.sconto{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    background-color: var(--color-sales);
+    color: var(--color-icons-text-white);
+    padding: 0.1em;
+}
+.sconto-2{
+    position: absolute;
+    bottom: 40px;
+    left: 42px;
+    background-color: var(--color-sales-advice);
+    color: var(--color-icons-text-white);
+    padding: 0.1em;
+}
+.sconto-2c6{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    background-color: var(--color-sales-advice);
+    color: var(--color-icons-text-white);
+    padding: 0.1em;
 }
 /* Footer */
 footer{
