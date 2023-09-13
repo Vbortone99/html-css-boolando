@@ -119,6 +119,16 @@ img{
     cursor: pointer;
     color: red;
 }
+
+.card-content:hover .hidden{
+    display: block;
+}
+.card-content:hover .primary-img{
+    display: none;
+}
+.hidden{
+    display: none;
+}
 /* Footer */
 footer{
     background-color: var(--color-footer-bg);
