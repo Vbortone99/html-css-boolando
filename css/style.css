@@ -65,3 +65,20 @@ footer{
     background-color: var(--color-footer-bg);
     color: var(--color-icons-text-white);
 }
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content a{
+    padding: 0px 4px 0px 0px;
+}
+a{
+    color: var(--color-icons-text-white);
+    text-decoration: none;
+}
+.socials{
+    text-align: center;
+}
+.socials i{
+    padding: 0px 2px;
+}
