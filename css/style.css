@@ -35,6 +35,9 @@
 .wrapper{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 .card{
     width: calc(100% / 3);
