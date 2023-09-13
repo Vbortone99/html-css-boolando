@@ -15,7 +15,7 @@
     --color-price:rgb(255, 45, 44);
 }
 
-/* Utilities */
+/* Debug Utilities */
 /* .debug{
     border: 2px solid black;
 }
@@ -25,6 +25,8 @@
 .debug-3{
     border: 2px solid red;
 } */
+
+/* Utilities */
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -54,9 +56,6 @@
     padding: 0px 5px 20px;
     min-width: 300px;
 }
-.card-content{
-    position: relative;
-}
 /*Header*/
 header{
     background-color: var(--color-header-bg);
@@ -72,6 +71,10 @@ header{
 }
 
 /* Main */
+
+.card-content{
+    position: relative;
+}
 img{
     width: 100%;
 }
@@ -104,6 +107,13 @@ img{
     background-color: var(--color-sales-advice);
     color: var(--color-icons-text-white);
     padding: 0.1em;
+}
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    padding: 5px;
+    background-color: white;
 }
 /* Footer */
 footer{
