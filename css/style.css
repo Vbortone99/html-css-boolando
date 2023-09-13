@@ -28,7 +28,7 @@
 
 /* Utilities */
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 15px 5px;
 }
@@ -114,6 +114,10 @@ img{
     right: 0px;
     padding: 5px;
     background-color: white;
+}
+.heart:hover{
+    cursor: pointer;
+    color: red;
 }
 /* Footer */
 footer{
