@@ -31,6 +31,16 @@
     padding: 15px 5px;
 }
 
+/* Flex */
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+}
+.multiple-card-container{
+    width: calc(100%/3);
+    display: flex;
+}
+
 /*Header*/
 header{
     background-color: var(--color-header-bg);
@@ -38,7 +48,9 @@ header{
 }
 
 /* Main */
-
+img{
+    width: 100%;
+}
 
 /* Footer */
 footer{
