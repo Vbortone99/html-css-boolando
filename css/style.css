@@ -36,11 +36,11 @@
     display: flex;
     flex-flow: row wrap;
 }
-.multiple-card-container{
-    width: calc(100%/3);
-    display: flex;
+.card{
+    width: calc(100% / 3);
+    padding: 0px 5px 20px;
+    min-width: 300px;
 }
-
 /*Header*/
 header{
     background-color: var(--color-header-bg);
