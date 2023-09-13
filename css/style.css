@@ -54,7 +54,12 @@ header{
 img{
     width: 100%;
 }
-
+.active-price{
+    color: var(--color-price);
+}
+.sale{
+    text-decoration: line-through;
+}
 /* Footer */
 footer{
     background-color: var(--color-footer-bg);
