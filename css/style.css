@@ -7,7 +7,7 @@
 
 /* Colors Palette */
 :root{
-    --color-orange:rgb(194, 85, 8);
+    --color-header-bg:rgb(194, 85, 8);
     --color-footer-bg:rgb(26, 26, 26);
     --color-icons-text-white:#ffffff;
     --color-sales:rgb(255, 0, 0);
@@ -19,7 +19,29 @@
 .debug{
     border: 2px solid black;
 }
+.debug-2{
+    border: 2px solid blue;
+}
+.debug-3{
+    border: 2px solid red;
+}
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding: 15px 5px;
+}
+
+/*Header*/
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-icons-text-white);
+}
+
+/* Main */
+
+
+/* Footer */
+footer{
+    background-color: var(--color-footer-bg);
+    color: var(--color-icons-text-white);
 }
