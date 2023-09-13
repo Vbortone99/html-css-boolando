@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+/* Colors Palette */
+:root{
+    --color-orange:rgb(194, 85, 8);
+    --color-footer-bg:rgb(26, 26, 26);
+    --color-icons-text-white:#ffffff;
+    --color-sales:rgb(255, 0, 0);
+    --color-sales-advice:rgb(0, 128, 0);
+    --color-price:rgb(255, 45, 44);
+}
+
 /* Utilities */
 .debug{
     border: 2px solid black;
