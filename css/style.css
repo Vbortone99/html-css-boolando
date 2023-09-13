@@ -30,7 +30,14 @@
     margin: 0 auto;
     padding: 15px 5px;
 }
-
+.d-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding-x *{
+    padding: 0px 2px;
+}
 /* Flex */
 .wrapper{
     display: flex;
@@ -50,6 +57,11 @@ header{
     color: var(--color-icons-text-white);
 }
 
+/* Navbar */
+#logo{
+    width: 10%;
+}
+
 /* Main */
 img{
     width: 100%;
@@ -65,10 +77,6 @@ footer{
     background-color: var(--color-footer-bg);
     color: var(--color-icons-text-white);
 }
-.footer-wrap{
-    display: flex;
-    justify-content: space-between;
-}
 .footer-content a{
     padding: 0px 4px 0px 0px;
 }
@@ -78,7 +86,4 @@ a{
 }
 .socials{
     text-align: center;
-}
-.socials i{
-    padding: 0px 2px;
 }
